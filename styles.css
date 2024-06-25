@@ -5,3 +5,59 @@
     --color-white:#ffffff;
     --color-orage:#ff9800;
 }
+
+body {
+    font-family: impact, sans-serif;
+    text-align: center;
+    background-color: var(--color-white);
+}
+.opportunity-container {
+    display: flex;
+    justify-content: center;  
+    flex-wrap: wrap; 
+    padding: 20px;
+    align-items: stretch;  
+}
+.opportunity-card {
+    background-color: #eeeeee;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 10px;
+    width: 250px;
+    text-decoration: none; 
+    padding: 20px;
+    text-align: center;
+    overflow: hidden; 
+    transition: transform 0.3s ease; 
+    display: flex; 
+    flex-direction: column; 
+    
+}
+.opportunity-card img {
+    transition: transform 0.3s ease; 
+    max-width: 100%; 
+    margin: 0 auto 20px; 
+    display: block; 
+    border-radius: 20px;
+    }
+.opportunity-card img:hover {
+    transform: scale(1.2); 
+}
+
+.opportunity-card h3 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    color: var(--color-blue-2);
+}
+.opportunity-card p {
+    flex-grow: 1; 
+    color: #333;
+    font-family: 'Lucida Sans';
+    font-size: 1em;
+    text-align: left; 
+    
+}
+
+h2 {
+    color: var(--color-blue-1);
+}
