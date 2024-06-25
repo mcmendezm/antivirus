@@ -241,11 +241,7 @@ body {
 /*fin stylo Teo*/
 
 
-body {
-    font-family: impact, sans-serif;
-    text-align: center;
-    background-color: var(--color-white);
-}
+
 .opportunity-container {
     display: flex;
     justify-content: center;  
@@ -307,6 +303,10 @@ h2 {
    color: #1D1856;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> dev
 
  body
  {
@@ -316,7 +316,12 @@ h2 {
     align-items: center;
     font-family: sans-serif;
     flex-direction: column;
+<<<<<<< HEAD
     margin: 0;
+=======
+    background-color: var(--color-white);
+    text-align: center;
+>>>>>>> dev
  }
 
  
