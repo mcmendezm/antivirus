@@ -303,11 +303,6 @@ h2 {
    color: #1D1856;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> dev
-
  body
  {
     width: 100%;
@@ -316,13 +311,12 @@ h2 {
     align-items: center;
     font-family: sans-serif;
     flex-direction: column;
-<<<<<<< HEAD
-    margin: 0;
-=======
     background-color: var(--color-white);
     text-align: center;
->>>>>>> dev
+    margin:0;
+    justify-content: center;
  }
+
 
  
  .service-container
@@ -399,6 +393,7 @@ h2 {
             flex-direction: row;
             width: 100vw;
             margin-top: 90px;
+            justify-content: space-evenly;
         }
         
         .footer .footer-logo img{
@@ -418,6 +413,7 @@ h2 {
             text-decoration:none;
             color:var(--color-white);
             transition:0.5s;
+            margin-right: 10px;
         }
         
         .footer .footer-row ul li{
