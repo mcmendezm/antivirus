@@ -153,3 +153,74 @@ body {
         .mascota{
             height: 500px;
         }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #2B3D51;
+            padding: 20px 30px;
+        }
+        
+        .navbar-left,
+        .navbar-right {
+            display: flex;
+            align-items: center;
+        }
+        
+        .navbar-center {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .navbar-logo {
+            height: 80px; 
+        }
+        
+        .navbar-menu {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar-menu li {
+            margin: 0 15px;
+        }
+        
+        .navbar-menu a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        
+        .navbar-buttons {
+            display: flex;
+            align-items: center;
+        }
+        
+        .navbar-buttons .btn {
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-left: 10px;
+        }
+        
+        .navbar-buttons .register {
+            border: 2px solid #F2CB05;
+            color: #F2CB05;
+            background-color: transparent;
+        }
+        
+        .navbar-buttons .login {
+            background-color: #F2CB05;
+            color: #2B3D51;
+        }
+        
+        .navbar-search input {
+            padding: 5px 10px;
+            border-radius: 5px;
+            border: none;
+            margin-left: 20px;
+        }
