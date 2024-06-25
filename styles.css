@@ -206,7 +206,7 @@ body {
 }
 
 .start-aboutus {
-    border: 3px solid #FDC80A;
+    border: 3px solid var(--color-yellow);
     text-decoration: none;
     padding: 10px 20px;
     font-size: 1rem;
@@ -241,11 +241,7 @@ body {
 /*fin stylo Teo*/
 
 
-body {
-    font-family: impact, sans-serif;
-    text-align: center;
-    background-color: var(--color-white);
-}
+
 .opportunity-container {
     display: flex;
     justify-content: center;  
@@ -307,22 +303,18 @@ h2 {
    color: #1D1856;
 }
 
-*
- {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
- }
+
 
  body
  {
     width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
     flex-direction: column;
+    background-color: var(--color-white);
+    text-align: center;
  }
 
  
@@ -340,7 +332,7 @@ h2 {
     margin: 20px;
     border-radius: 6px;
     overflow: hidden;
-    background: #fff;
+    background: var(--color-white);
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     cursor: default;
     transition: all 400ms ease;
@@ -377,15 +369,15 @@ h2 {
   display: inline-block;
   padding: 10px;
   margin-top: 10px;
-  color:#FDC80A;
-  border: 1px solid #FDC80A;
+  color:var(--color-yellow);
+  border: 1px solid var(--color-yellow);
   border-radius: 20px;
   transition: all 400 ms ease;
 }
 
 .service-card .service-content a:hover
 {
-    background:#FDC80A ;
-    color: #fff;
+    background:var(--color-yellow) ;
+    color: var(--color-white);
     cursor: pointer;
 }
