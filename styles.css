@@ -5,12 +5,6 @@
     --color-white:#ffffff;
     --color-orage:#ff9800;
 }
-body {
-            font-family: sans-serif;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
 
         .login-container {
             background-color: var(--color-white);
@@ -196,17 +190,17 @@ body {
     position: relative;
     margin: 18px;
     background-color: var(--color-yellow);
-    color: white;
+    color: var(--color-white);
     border-radius: 20px;
     transition: transform 0.3s ease;
 }
 
 .start-contact:hover {
-    background-color: #32526E;
+    background-color: var(--color-blue-2);
 }
 
 .start-aboutus {
-    border: 3px solid #FDC80A;
+    border: 3px solid var(--color-yellow);
     text-decoration: none;
     padding: 10px 20px;
     font-size: 1rem;
@@ -218,7 +212,7 @@ body {
 }
 
 .start-aboutus:hover {
-    border: 3px solid #32526E;
+    border: 3px solid var(--color-blue-2);
 }
 
 .start-img1 {
@@ -241,11 +235,7 @@ body {
 /*fin stylo Teo*/
 
 
-body {
-    font-family: impact, sans-serif;
-    text-align: center;
-    background-color: var(--color-white);
-}
+
 .opportunity-container {
     display: flex;
     justify-content: center;  
@@ -275,8 +265,8 @@ body {
     display: block; 
     border-radius: 20px;
     }
-.opportunity-card img:hover {
-    transform: scale(1.2); 
+.opportunity-card:hover {
+    transform: scale(1.1); 
 }
 
 .opportunity-card h3 {
@@ -307,23 +297,21 @@ h2 {
    color: #1D1856;
 }
 
-*
- {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
- }
-
  body
  {
     width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
     flex-direction: column;
+    background-color: var(--color-white);
+    text-align: center;
+    margin:0;
+    padding: 0;
+    justify-content: center;
  }
+
 
  
  .service-container
@@ -340,7 +328,7 @@ h2 {
     margin: 20px;
     border-radius: 6px;
     overflow: hidden;
-    background: #fff;
+    background: var(--color-white);
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     cursor: default;
     transition: all 400ms ease;
@@ -377,15 +365,142 @@ h2 {
   display: inline-block;
   padding: 10px;
   margin-top: 10px;
-  color:#FDC80A;
-  border: 1px solid #FDC80A;
+  color:var(--color-yellow);
+  border: 1px solid var(--color-yellow);
   border-radius: 20px;
   transition: all 400 ms ease;
 }
 
 .service-card .service-content a:hover
 {
-    background:#FDC80A ;
-    color: #fff;
+    background:var(--color-yellow) ;
+    color: var(--color-white);
     cursor: pointer;
 }
+
+
+        .footer{
+            background: var(--color-blue-2);
+            padding:30px 0px;
+            font-family: 'Lucida', sans-serif;
+            text-align:center;
+            display: flex;
+            flex-direction: row;
+            width: 100vw;
+            margin-top: 90px;
+            justify-content: space-evenly;
+        }
+        
+        .footer .footer-logo img{
+            float: left; width: 300px; height: 288px; padding: 100px 100px;
+            display: block;
+        }
+        
+        .footer .footer-row{
+            width:100%;
+            margin:1% 0%;
+            padding:0.6% 0%;
+            color:var(--color-white);
+            font-size:1em;
+        }
+        
+        .footer .footer-row a{
+            text-decoration:none;
+            color:var(--color-white);
+            transition:0.5s;
+            margin-right: 10px;
+        }
+        
+        .footer .footer-row ul li{
+            display:inline-block;
+            margin:0px 30px;
+        }
+        .footer-box{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: var(--color-blue-2);
+            padding: 20px 50px;
+            width: 100vw;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        .navbar-left,
+        .navbar-right {
+            display: flex;
+            align-items: center;
+        }
+        .navbar-left{
+            padding-left: 80px;
+        }
+        .navbar-right{
+            padding-right: 80px;
+        }
+        .navbar-center {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .navbar-logo {
+            height: 80px; 
+        }
+        
+        .navbar-menu {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar-menu li {
+            margin: 0 15px;
+        }
+        
+        .navbar-menu a {
+            color: var(--color-white);
+            text-decoration: none;
+            font-size: 16px;
+        }
+        
+        .navbar-buttons {
+            display: flex;
+            align-items: center;
+        }
+        
+        .navbar-buttons .btn {
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-left: 10px;
+        }
+        
+        .navbar-buttons .register {
+            border: 2px solid var(--color-yellow);
+            color: var(--color-white);
+            background-color: transparent;
+        }
+        
+        .navbar-buttons .login {
+            background-color: var(--color-yellow);
+            color: var(--color-white);
+        }
+        
+        .navbar-search input {
+            padding: 5px 10px;
+            border-radius: 5px;
+            border: none;
+            margin-left: 20px;
+        }
+        .register:hover,
+        .login:hover{
+            scale: 1.04;
+        }
+        .footer-row>p{
+            font-size: 24px;
+        }
