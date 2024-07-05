@@ -11,7 +11,7 @@
             width: 100%;
             display: flex;
             flex-direction: row;
-            justify-content: space-evenly;
+            justify-content: center;
             margin-top:40px ;
         }
         .form-container{
@@ -427,6 +427,7 @@ h2 {
             background-color: var(--color-blue-2);
             padding: 20px 50px;
             width: 100vw;
+            height: 50px;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
         
@@ -489,6 +490,7 @@ h2 {
         .navbar-buttons .login {
             background-color: var(--color-yellow);
             color: var(--color-white);
+            margin-right: 30px;
         }
         
         .navbar-search input {
@@ -504,3 +506,46 @@ h2 {
         .footer-row>p{
             font-size: 24px;
         }
+.navbar-search {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    right: 10px;
+    top: 2px;
+}
+
+#search-input {
+    display: none;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+#search-input.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+.buttonSearch{
+    height: 30px;
+    width: 500px;
+    border-radius: 30px;
+    background-color: #F5F5F520;
+    color: var(--color-white);
+    position: absolute;
+    right: 5px;
+
+}
+#search-input::placeholder {
+    color: #ffffff80;
+    padding-left: 20px;
+}
