@@ -234,58 +234,70 @@
 
 /*fin stylo Teo*/
 
+/* Opportunity-Daniela */
 
-
-.opportunity-container {
-    display: flex;
-    justify-content: center;  
-    flex-wrap: wrap; 
-    padding: 20px;
-    align-items: stretch;  
+.opportunity {
+    padding: 40px;
 }
-.opportunity-card {
+
+  .opportunity-title {
+    color: var(--color-blue-1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  .opportunity-container .column {
     background-color: #eeeeee;
     border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 10px;
-    width: 250px;
-    text-decoration: none; 
-    padding: 20px;
+    padding: 1px;
     text-align: center;
-    overflow: hidden; 
-    transition: transform 0.3s ease; 
-    display: flex; 
-    flex-direction: column; 
-    
-}
-.opportunity-card img {
-    transition: transform 0.3s ease; 
-    max-width: 100%; 
-    margin: 0 auto 20px; 
-    display: block; 
+    overflow: hidden;
+    transition: all 0.3s ease-in;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .opportunity-img-top {
+    transition: all 0.3s ease-in;
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto 20px;
     border-radius: 20px;
-    }
-.opportunity-card:hover {
-    transform: scale(1.1); 
-}
-
-.opportunity-card h3 {
-    margin: 0 0 10px;
-    font-size: 1.2em;
+    display: block;
+  }
+  
+  .column:hover {
+    transform: scale(0.9); 
+  }
+  
+  
+  .opportunity-card {
+    text-decoration: none;
+  }
+  
+  .opportunity-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    align-items:center;
+  }
+  
+  .opportunity-title {
     color: var(--color-blue-2);
-}
-.opportunity-card p {
-    flex-grow: 1; 
+  }
+  
+  .opportunity-text {
+    margin: 0 0 10px;
+    font-size: 1.1rem;
+    flex-grow: 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #333;
-    font-family: 'Lucida Sans';
-    font-size: 1em;
-    text-align: left; 
-    
-}
-
-h2 {
-    color: var(--color-blue-1);
-}
+    text-align: left;
+  }
 
 
 .service-title
