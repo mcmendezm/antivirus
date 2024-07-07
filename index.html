@@ -23,12 +23,13 @@
         </div>
         <div class="navbar-right">
             <div class="navbar-buttons">
-                <a href="#" class="btn register">Registrarme</a>
+                <a href="./register.html" class="btn register">Registrarme</a>
                 <a href="./login.html" class="btn login">Ingresar</a>
             </div>
-            <div class="navbar-search">
-                <input type="text" placeholder="Buscar...">
-            </div>
+        <div class="navbar-search">
+            <input type="text" placeholder="Buscar..." id="search-input" class="hidden buttonSearch">
+            <button class="search-icon" onclick="toggleSearch()"><img src="./images/icons8-búsqueda-64 2.png" alt="lupa" width="30px"></button>
+        </div>
         </div>
     </nav>
         <section class="start-section1">
@@ -164,8 +165,10 @@
             </div>
             </div>
     </footer>
+    <script src="./navbar.js"></script>
     <!-- Link Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
 </body>
+
 </html>
