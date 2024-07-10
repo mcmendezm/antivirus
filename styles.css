@@ -327,6 +327,7 @@ input[type="checkbox"] {
     margin: 0 auto 20px;
     border-radius: 20px;
     display: block;
+    width: 300px;
 }
 
 .column:hover {
@@ -336,6 +337,7 @@ input[type="checkbox"] {
 
 .opportunity-card {
     text-decoration: none;
+    max-width: 80%;
 }
 
 .opportunity-container {
@@ -352,12 +354,14 @@ input[type="checkbox"] {
 
 .opportunity-text {
     margin: 0 0 10px;
-    font-size: 1.1rem;
+    font-size: 12px;
     flex-grow: 1;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #333;
     text-align: left;
+    line-height: 25px;  
 }
+
 
 
 .service-title
