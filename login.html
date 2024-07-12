@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antivirus</title>
+    <link rel="icon" href="./images/logo 2.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <ul class="navbar-menu">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="#service">Servicios</a></li>
+                <li><a href="#oportunity">Oportunidades</a></li>
+            </ul>
+        </div>
+        <div class="navbar-center">
+            <img src="./images/logo 2.png" alt="Antivirus Logo" class="navbar-logo">
+        </div>
+        <div class="navbar-right">
+            <div class="navbar-buttons">
+                <a href="./register.html" class="btn register">Registrarme</a>
+                <a href="./login.html" class="btn login">Ingresar</a>
+            </div>
+        <div class="navbar-search">
+            <input type="text" placeholder="Buscar..." id="search-input" class="hidden buttonSearch">
+            <button class="search-icon" onclick="toggleSearch()"><img src="./images/icons8-búsqueda-64 2.png" alt="lupa" width="30px"></button>
+        </div>
+        </div>
+    </nav>
+    <section class="login-container">
+        <img class="mascota" src="./images/mascota.jpeg" alt="mascota de antivirus" >
+        <div class="form-container">
+            <h2 class="form-title">Bienvenido a tu </br>
+            <span class="span-title">Banco de oportunidades</span>
+            </h2>
+            <div class="social-login">
+            <button class="social-button google-button">
+                <img src="https://img.icons8.com/3d-fluency/94/google-logo.png" alt="Google Logo" height="20">
+                Ingresa con Google
+            </button>
+            <button class="social-button facebook-button">
+                <img src="https://img.icons8.com/fluency/48/facebook-new.png" alt="Facebook Logo" height="20">
+                Ingresa con Facebook
+            </button>
+            </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="example@gmail.com">
+        </div>
+
+        <div class="form-group">
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" placeholder="*********">
+            <span class="password-toggle">
+                <i class="fas fa-eye"></i>
+            </span>
+        </div>
+        <div  class="form-item">
+            <div class="form-checkbox">
+                <input type="checkbox" id="remember">
+                <label for="remember">Recordarme</label>
+            </div>
+            <div class="forgot-password">
+                <a href="#" class="social-login-link">Olvidé mi contraseña</a>
+            </div>
+        </div>
+
+        <button class="login-button">Login</button>
+
+
+        <div class="register-link">
+            ¿No tienes una cuenta? <a href="#" class="social-login-link">Registraté</a>
+        </div>
+        </div>
+    </section>
+   <footer id="footer"> 
+        <div class="footer">
+            <div class="footer-logo">
+            <img src="./images/logo 2.png">
+            </div>
+            <div class="footer-box">
+
+            
+            <div class="footer-row">
+            <p>¿Quieres saber más de nosotros?</p>
+            <p>Contáctanos hoy mismo.</p>
+            <a class="footer-icons" href="https://instagram.com/somosantivirus" target="_blank"><img src="./images/icons8-instagram-100.png"></a>
+            <a class="footer-icons" href="https://www.linkedin.com/company/antivirus-desercion/" target="_blank"><img src="./images/icons8-linkedin-100.png"></a>
+            <a class="footer-icons" href="https://www.youtube.com/channel/UCCDsmMeIqSWGk_fh1m9FX0w" target="_blank"><img src="./images/icons8-youtube-100.png"></a>
+            <a class="footer-icons" href="https://api.whatsapp.com/send?phone=573053897083" target="_blank"><img src="./images/icons8-whatsapp-100 (1).png"></a>
+            <a class="footer-icons" href="https://www.tiktok.com/@somosantivirus" target="_blank"><img src="./images/icons8-tik-tok-100.png"></a>
+            <p>Banco de Oportunidades</p>
+            </div>
+            
+            <div class="footer-row">
+            <ul>
+            <li><a href="#">Términos y condiciones</a></li>
+            <li><a href="#">Políticas de privacidad</a></li>
+            </ul>
+            </div>
+            <div class="footer-row">
+            FUNDACIÓN ANTIVIRUS © 2024 - Todos los Derechos Reservados 
+            </div>
+            </div>
+            </div>
+    </footer>
+    <script src="./navbar.js"></script>
+</body>
+</html>
