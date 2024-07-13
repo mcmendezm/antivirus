@@ -331,7 +331,7 @@ input[type="checkbox"] {
 
 .opportunity-img-top {
     transition: all 0.3s ease-in;
-    max-width: 80%;
+    max-width: 90%;
     height: auto;
     margin: 0 auto 20px;
     border-radius: 20px;
@@ -342,7 +342,7 @@ input[type="checkbox"] {
 
 .opportunity-card {
     text-decoration: none;
-    max-width: 80%;
+    max-width: 90%;
 }
 
 .column:hover {
@@ -745,12 +745,23 @@ body {
 }
 
 .input-group {
-    background-color: #c0b8b8;
+    background-color: #f7f0f0;
 }
 
 .form-select {
     margin-right: 5px;
-    background-color: white;
 }
 
+/* Cards oportunidades para estudiar  */
+
+.row {
+    padding: 30px 100px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    margin: 10px;
+}
 
