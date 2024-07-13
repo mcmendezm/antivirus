@@ -703,7 +703,8 @@ body {
 
 .carousel-control-prev.custom-prev,
 .carousel-control-next.custom-next {
-    width: 10%; 
+    width: 10%;
+    bottom: -30%;
 }
 
 .carousel-control-prev.custom-prev {
