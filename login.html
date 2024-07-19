@@ -10,6 +10,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 </head>
 <body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <ul class="navbar-menu">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="#service">Servicios</a></li>
+                <li><a href="#oportunity">Oportunidades</a></li>
+            </ul>
+        </div>
+        <div class="navbar-center">
+            <img src="./images/logo 2.png" alt="Antivirus Logo" class="navbar-logo">
+        </div>
+        <div class="navbar-right">
+            <div class="navbar-buttons">
+                <a href="./register.html" class="btn register">Registrarme</a>
+                <a href="./login.html" class="btn login">Ingresar</a>
+            </div>
+        <div class="navbar-search">
+            <input type="text" placeholder="Buscar..." id="search-input" class="hidden buttonSearch">
+            <button class="search-icon" onclick="toggleSearch()"><img src="./images/icons8-búsqueda-64 2.png" alt="lupa" width="30px"></button>
+        </div>
+        </div>
+    </nav>
     <section class="login-container">
         <img class="mascota" src="./images/mascota.jpeg" alt="mascota de antivirus" >
         <div class="form-container">
@@ -57,5 +79,37 @@
         </div>
         </div>
     </section>
+        <footer> 
+        <div class="footer">
+            <div class="footer-logo">
+            <img src="./images/logo 2.png">
+            </div>
+            <div class="footer-box">
+
+            
+            <div class="footer-row">
+            <p>¿Quieres saber más de nosotros?</p>
+            <p>Contáctanos hoy mismo.</p>
+            <a href="hola@antivirusparaladesercion.com" target="_blank"><img src="./images/Frame 33.png"></a>
+            <a href="https://api.whatsapp.com/send?phone=573053897083" target="_blank"><img src="./images/Frame 34.png"></a>
+            <a href="https://www.linkedin.com/company/antivirus-desercion/" target="_blank"><img src="./images/Frame 35.png"></a>
+            <a href="https://instagram.com/somosantivirus" target="_blank"><img src="./images/Frame 36.png"></a>
+            <a href="https://www.facebook.com/antivirusparaladesercion" target="_blank"><img src="./images/Frame 37.png"></a>
+            <p>Banco de Oportunidades</p>
+            </div>
+            
+            <div class="footer-row">
+            <ul>
+            <li><a href="#">Términos y condiciones</a></li>
+            <li><a href="#">Políticas de privacidad</a></li>
+            </ul>
+            </div>
+            <div class="footer-row">
+            FUNDACIÓN ANTIVIRUS © 2024 - Todos los Derechos Reservados 
+            </div>
+            </div>
+            </div>
+    </footer>
+    <script src="./navbar.js"></script>
 </body>
 </html>
