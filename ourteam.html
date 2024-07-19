@@ -3,31 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Nuestro Equipo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="navbar-left">
-            <ul class="navbar-menu">
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="index.html#service">Servicios</a></li>
-                <li><a href="index.html#oportunity">Oportunidades</a></li>
-                <li><a href="ourteam.html">Quiénes Somos</a></li>
+    <nav class="flex items-center justify-between bg-[#32526E] p-5 w-full h-20">
+        <div class="flex items-center space-x-5 pl-20">
+            <ul class="flex space-x-5 items-center">
+                <li><a href="./index.html" class="text-white"><img src="./images/logo 2.png" alt="Antivirus Logo" class="h-20"></a></li>
+                <li><a href="#service" class="text-white">Servicios</a></li>
+                <li><a href="#oportunity" class="text-white">Oportunidades</a></li>
+                <li><a href="ourteam.html" class="text-white">Quiénes Somos</a></li>
             </ul>
         </div>
-        <div class="navbar-center">
-            <img src="./images/logo 2.png" alt="Antivirus Logo" class="navbar-logo">
-        </div>
-        <div class="navbar-right">
-            <div class="navbar-buttons">
-                <a href="./register.html" class="btn register">Registrarme</a>
-                <a href="./login.html" class="btn login">Ingresar</a>
+        <div class="flex items-center space-x-5 pr-20">
+            <div class="flex space-x-3">
+                <a id="btn.register" class="pr-3"><img src="./images/toggle_off_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="lupa" width="30px"></a>
+                <a id="btn.login" class="pr-4" href="./login.html"><img src="./images/person_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="lupa" width="30px"></a>
             </div>
-        <div class="navbar-search">
-            <input type="text" placeholder="Buscar..." id="search-input" class="hidden buttonSearch">
-            <button class="search-icon" onclick="toggleSearch()"><img src="./images/icons8-búsqueda-64 2.png" alt="lupa" width="30px"></button>
-        </div>
+            <div class="relative">
+                <input type="text" placeholder="Buscar..." id="search-input" class="hidden h-[45px] w-[500px] rounded-[30px] bg-[#F5F5F520] text-white absolute right-[5px] pl-5">
+                <button class="bg-none border-none text-[20px] cursor-pointer relative right-[15px] top-[5px] focus:outline-none " onclick="toggleSearch()"><img src="./images/icons8-búsqueda-64 2.png" alt="lupa" width="30px"></button>
+            </div>
         </div>
     </nav>
 
@@ -253,38 +250,28 @@
         </div>
     </div>
     </div>
-
-<footer id="footer"> 
-    <div class="footer">
-        <div class="footer-logo">
-        <img src="./images/logo 2.png">
+    <footer id="footer" class="bg-[#32526E] text-white py-10 flex flex-col items-center w-full">
+        <div class="flex items-center space-x-5 mb-5">
+            <img src="./images/logo 2.png" alt="Logo" class="h-20">
+            <div class="text-center">
+                <p>¿Quieres saber más de nosotros?</p>
+                <p>Contáctanos hoy mismo.</p>
+                
+            </div>
         </div>
-        <div class="footer-box">
-
-        
-        <div class="footer-row">
-        <p>¿Quieres saber más de nosotros?</p>
-        <p>Contáctanos hoy mismo.</p>
-        <a class="footer-icons" href="hola@antivirusparaladesercion.com" target="_blank"><img src="./images/Frame 33.png"></a>
-        <a class="footer-icons" href="https://api.whatsapp.com/send?phone=573053897083" target="_blank"><img src="./images/Frame 34.png"></a>
-        <a class="footer-icons" href="https://www.linkedin.com/company/antivirus-desercion/" target="_blank"><img src="./images/Frame 35.png"></a>
-        <a class="footer-icons" href="https://instagram.com/somosantivirus" target="_blank"><img src="./images/Frame 36.png"></a>
-        <a class="footer-icons" href="https://www.facebook.com/antivirusparaladesercion" target="_blank"><img src="./images/Frame 37.png"></a>
-        <p>Banco de Oportunidades</p>
+        <div class="flex space-x-5 mb-5">
+            <a href="https://instagram.com/somosantivirus" target="_blank"><img src="./images/icons8-instagram-100.png" class="w-12 h-12 p-2  border-white hover:bg-yellow-500 hover:rounded-full"></a>
+            <a href="https://wa.me/573217066273" target="_blank"><img src="./images/icons8-whatsapp-100 (1).png" class="w-12 h-12 p-2  border-white hover:bg-yellow-500 hover:rounded-full"></a>
+            <a href="https://linkedin.com/in/somosantivirus" target="_blank"><img src="./images/icons8-linkedin-100.png" class="w-12 h-12 p-2  border-white hover:bg-yellow-500 hover:rounded-full"></a>
+            <a href="https://www.tiktok.com/@somosantivirus" target="_blank"><img src="./images/icons8-tik-tok-100.png" class="w-12 h-12 p-2  border-white hover:bg-yellow-500 hover:rounded-full"></a>
+            <a href="https://www.youtube.com/channel/UCCDsmMeIqSWGk_fh1m9FX0w" target="_blank"><img src="./images/icons8-youtube-100.png" class="w-12 h-12 p-2  border-white hover:bg-yellow-500 hover:rounded-full"></a>
         </div>
-        
-        <div class="footer-row">
-        <ul>
-        <li><a href="#">Términos y condiciones</a></li>
-        <li><a href="#">Políticas de privacidad</a></li>
-        </ul>
+        <div class="text-center">
+            
+            <p>Banco de Oportunidades</p>
+            <p>FUNDACIÓN ANTIVIRUS © 2024 - Todos los Derechos Reservados </p>
         </div>
-        <div class="footer-row">
-        FUNDACIÓN ANTIVIRUS © 2024 - Todos los Derechos Reservados 
-        </div>
-        </div>
-        </div>
-</footer>
+    </footer>
 
     <script src="./navbar.js"></script>
 </body>
