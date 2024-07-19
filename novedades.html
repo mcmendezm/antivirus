@@ -10,11 +10,39 @@
 </head>
 
 <body>
+    <nav class="flex items-center justify-between bg-[#32526E] p-5 w-full h-20">
+        <div class="flex items-center space-x-5 pl-20">
+            <ul class="flex space-x-5 items-center">
+                <li><a href="./index.html" class="text-white"><img src="./images/logo 2.png" alt="Antivirus Logo"
+                            class="h-20"></a></li>
+                <li><a href="#service" class="text-white">Servicios</a></li>
+                <li><a href="#oportunity" class="text-white">Oportunidades</a></li>
+                <li><a href="ourteam.html" class="text-white">Quiénes Somos</a></li>
+            </ul>
+        </div>
+        <div class="flex items-center space-x-5 pr-20">
+            <div class="flex space-x-3">
+                <a id="btn.register" class="pr-3"><img
+                        src="./images/toggle_off_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="lupa"
+                        width="30px"></a>
+                <a id="btn.login" class="pr-4" href="./login.html"><img
+                        src="./images/person_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="lupa" width="30px"></a>
+            </div>
+            <div class="relative">
+                <input type="text" placeholder="Buscar..." id="search-input"
+                    class="hidden h-[45px] w-[500px] rounded-[30px] bg-[#F5F5F520] text-white absolute right-[5px] pl-5">
+                <button
+                    class="bg-none border-none text-[20px] cursor-pointer relative right-[15px] top-[5px] focus:outline-none "
+                    onclick="toggleSearch()"><img src="./images/icons8-búsqueda-64 2.png" alt="lupa"
+                        width="30px"></button>
+            </div>
+        </div>
+    </nav>
     <!-- Section carousel -->
-    <section class="max-w-2xl mx-auto rounded-full">
+    <section class="max-w-2xl mx-auto rounded-full p-10">
         <div id="default-carousel" class="relative" data-carousel="static">
             <div class="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <span
                         class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl "></span>
                     <img src="images/Comfama-carrusel.jpg"
@@ -154,7 +182,37 @@
         </div>
     </section>
     <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
-</body>
+
+    <footer id="footer" class="bg-[#32526E] text-white py-10 flex flex-col items-center w-full">
+        <div class="flex items-center space-x-5 mb-5">
+            <img src="./images/logo 2.png" alt="Logo" class="h-20">
+            <div class="text-center">
+                <p>¿Quieres saber más de nosotros?</p>
+                <p>Contáctanos hoy mismo.</p>
+
+            </div>
+        </div>
+        <div class="flex space-x-5 mb-5">
+            <a href="https://instagram.com/somosantivirus" target="_blank"><img src="./images/icons8-instagram-100.png"
+                    class="w-12 h-12 p-2  border-white hover:bg-yellow-500 hover:rounded-full"></a>
+            <a href="https://wa.me/573217066273" target="_blank"><img src="./images/icons8-whatsapp-100 (1).png"
+                    class="w-12 h-12 p-2  border-white hover:bg-yellow-500 hover:rounded-full"></a>
+            <a href="https://linkedin.com/in/somosantivirus" target="_blank"><img src="./images/icons8-linkedin-100.png"
+                    class="w-12 h-12 p-2  border-white hover:bg-yellow-500 hover:rounded-full"></a>
+            <a href="https://www.tiktok.com/@somosantivirus" target="_blank"><img src="./images/icons8-tik-tok-100.png"
+                    class="w-12 h-12 p-2  border-white hover:bg-yellow-500 hover:rounded-full"></a>
+            <a href="https://www.youtube.com/channel/UCCDsmMeIqSWGk_fh1m9FX0w" target="_blank"><img
+                    src="./images/icons8-youtube-100.png"
+                    class="w-12 h-12 p-2  border-white hover:bg-yellow-500 hover:rounded-full"></a>
+        </div>
+        <div class="text-center">
+
+            <p>Banco de Oportunidades</p>
+            <p>FUNDACIÓN ANTIVIRUS © 2024 - Todos los Derechos Reservados </p>
+        </div>
+    </footer>
+    <script src="./navbar.js"></script>
     <script type="module" src="script.js"></script>
+</body>
 
 </html>
