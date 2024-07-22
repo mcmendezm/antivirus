@@ -1,7 +1,7 @@
 function toggleSearch() {
     const searchInput = document.getElementById('search-input');
-    const registerButton = document.querySelector('.btn.register');
-    const loginButton = document.querySelector('.btn.login');
+    const registerButton = document.getElementById('btn.register');
+    const loginButton = document.getElementById('btn.login');
 
     if (searchInput.classList.contains('hidden')) {
         searchInput.classList.remove('hidden');
