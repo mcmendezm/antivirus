@@ -15,3 +15,9 @@ function toggleSearch() {
         loginButton.classList.remove('hidden');
     }
 }
+
+//eliminar marca de agua spl1n3
+window.onload = function() {
+    var shadowRoot = document.querySelector('spline-viewer').shadowRoot;
+    shadowRoot.querySelector('#logo').remove();
+}
