@@ -172,7 +172,7 @@
 
 } 
 
-.future {
+/* .future {
     width: 50%;
 }
 
@@ -203,7 +203,6 @@
     padding: 50px 120px 50px 80px;
     margin: -150px 150px;
 }
-
 
 .start-buttons {
     margin: 160px 50px 50px 240px;
@@ -246,35 +245,7 @@
 
 .start-aboutus:hover {
     border: 3px solid var(--color-blue-2);
-}
-
-.portrait {
-    justify-content: center;
-    object-fit: cover;
-    overflow: hidden;
-    width: 50%;
-    margin-right: 0px;
-}
-
-.start-img1 {
-    position: relative;
-    width: 50%;
-    margin-top: 10px; 
-}
-
-.start-img2 {
-    position: relative;
-    width: 50%;
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-top: -610px;
-    margin-bottom: 18px;
-    opacity: 0;
-}
-
-.start-img2:hover {
-    opacity: 1;
-}
+} */
 
 .wrapper .title{
     text-align: center;
@@ -377,9 +348,7 @@
     text-transform: initial;
 }
 
-
 /*fin stylo Teo*/
-
 
 
 .opportunity-container {
@@ -433,7 +402,6 @@ h2 {
     color: var(--color-blue-1);
 }
 
-
 .service-title
 {
    display: flex;
@@ -457,7 +425,6 @@ h2 {
     padding: 0;
     justify-content: center;
  }
-
 
  
  .service-container
@@ -523,7 +490,6 @@ h2 {
     color: var(--color-white);
     cursor: pointer;
 }
-
 
         .footer{
             min-width: 1500px;
@@ -734,7 +700,6 @@ h2 {
 }
 
 /*stylo Roberto*/
-
 
 .container-aboutus {
     width: 80%;
